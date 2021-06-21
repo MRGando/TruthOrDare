@@ -1,0 +1,85 @@
+/*These fonts are Arabic and doesn't work well with farsi*/
+/*@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+*/*{font-family: 'Tajawal','Montserrat', sans-serif; padding: 0; margin: 0; box-sizing: border-box;}
+body{
+    backdrop-filter: blur(0.2rem);
+    padding-top: 1rem;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(0, 223, 186, 1),rgba(0, 105, 119, 0.3)),url('https://wallpapercave.com/wp/wp5860249.jpg');
+    background-size: cover;
+    background-position: center;
+} 
+.chosen_Name
+{
+    color: white;
+    font-size: 2rem;
+}
+.spin_form
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 6em;
+}
+.spin_btn{
+    cursor: pointer;
+    outline-style: none;
+    font-size:2rem;
+    margin-top: 20px;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+.adding_form{
+  position: absolute;
+  bottom: 10px;
+}
+#input{
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    border: 2px solid white;
+    outline-style: none;
+    background-color: transparent;
+    border-radius: 1rem;
+    padding: 5px 10px;
+}
+.adding_btn{
+    font-weight: bold;
+    cursor: pointer;
+    outline-style: none;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+#users_List{
+    font-size: 1.3rem;
+    color: white;
+    margin-bottom: 10px;
+}
+.icon{
+    width: 50px;
+    border-radius: 20%;
+    position: fixed;
+    top: 1rem;
+    left: 1rem;
+}
+#rule{
+    color: whitesmoke;
+    width: 90%;
+    text-align: center;
+}
+#info_btn{
+    width: 50px;
+    border-radius: 20%;
+    position: fixed;
+    top: 1rem;
+    right: 1rem;
+}
